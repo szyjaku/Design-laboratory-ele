@@ -26,7 +26,7 @@ void display_numbers(uint8_t number)
 	uint8_t tens = (number%100)/ 10;
 	uint8_t units = number%10;
 	
-	for(uint16_t i=0; i<10; i++)
+	for(uint16_t i=0; i<190; i++)
 	{
 		turn_off();
 		PORTD = ~numbers[hundreds];
