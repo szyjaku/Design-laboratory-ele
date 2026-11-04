@@ -50,7 +50,7 @@ void segment(uint8_t bits)
 	uint8_t numbers[10] = {0b111111,0b000110,0b011011,0b001111,0b100110,0b101101,0b111101,0b000111,0b111111,0b101111};
 	uint8_t numbers2[10] = {0b0, 0b0, 0b1, 0b1, 0b1, 0b1, 0b1, 0b0, 0b1, 0b1 } ;
 
-	PORTD = (PORTD & 0x03) | numbers[bits];
+	PORTD = (PORTD & 0x03) | (~(numbers[bits] << 2) & 0xFC);
 	
 	if(numbers2[bits] == 1)
 	{
@@ -68,7 +68,7 @@ void display_numbers(uint8_t number)
 	uint8_t tens = (number%100)/ 10;
 	uint8_t units = number%10;
 	
-	for(uint16_t i=0; i<10; i++)
+	for(uint16_t i=0; i<200; i++)
 	{
 		turn_off();
 		segment(hundreds);
@@ -126,3 +126,4 @@ int main(void)
 		if(count==0){up=1;};
     }
 }
+
