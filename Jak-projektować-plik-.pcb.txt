@@ -1,0 +1,21 @@
+Jak projektować plik .pcb
+
+Określić wymiary płytki oraz liczbę warstw.
+Określić używane elementy, ich footprinty oraz sposób montażu.
+Określić wymagania firmy produkującej układ(dane do testu DRC: np. min. szerokość ścieżek, odległość między ścieżkami itd..)
+Pamiętać o przeprowadzeniu testów kontrolnych(DRC itd..)
+
+Elementy konkretnych bloków układu rozmieszczać obok siebie ale w odpowiednich odstępach.
+Stosować warstwę wylaną GND, na której umieszcza się ograniczoną liczbę ścieżek.
+Stosować jak najmniej przelotek, ścieżki powinny być na jednej warstwie.
+Najlepiej zaginać ścieżki pod kątem 45°.
+Ścieżki powinny być jak najkrótsze.
+Ścieżki zasilające powinny być szersze.
+Bloki i elementy układu układać zgodnie z kierunkiem sygnału.
+Stosować kondensatory odsprzęgające przy pinach zasilania układów scalonych.
+Umieszczać oznaczenia elementów w widocznych miejscach oraz możliwie określać ich polaryzacje.
+Złącza układu powinny być łatwo dostępne na skrajach płytki.
+
+Przy projektowaniu ścieżek dla krótkich fal należy zwrócić uwagę jak będą się one w nich zachowywały.
+
+
