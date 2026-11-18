@@ -1,0 +1,99 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f301f9f2-25ee-4d06-8110-25038d9ef40a")
+	(paper "A4")
+	(title_block
+		(title "Moduł timera")
+		(date "2026-10-19")
+		(rev "1.0")
+		(company "AGH Design Lab sem 5")
+		(comment 1 "draw.: Mikołaj Bułka")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 46.99 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcb05cc-c5c9-40de-adbe-a964c752fb85")
+	)
+	(wire
+		(pts
+			(xy 57.15 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc614f2-a504-4905-a8ee-8d5256c402e0")
+	)
+	(wire
+		(pts
+			(xy 54.7914 71.12) (xy 70.0314 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb2426b-0661-4f76-a918-6113dfce0e3a")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be070bcd-f917-4169-ae7c-7f3b38e906e4")
+	)
+	(hierarchical_label "DM"
+		(shape input)
+		(at 54.7914 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09764add-4722-4add-9de5-ec56df12ad7f")
+	)
+	(hierarchical_label "TXD"
+		(shape input)
+		(at 52.07 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f7645e3-8801-4c9a-97e7-5b54c38656f8")
+	)
+	(hierarchical_label "DP"
+		(shape input)
+		(at 57.15 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96940d31-9217-4ac8-a55d-79b620064228")
+	)
+	(hierarchical_label "RXD"
+		(shape input)
+		(at 54.61 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0f9120a-73bf-438f-80ff-5c00153f0bd9")
+	)
+)
